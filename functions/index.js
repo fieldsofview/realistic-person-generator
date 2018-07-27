@@ -1,12 +1,12 @@
 "use strict";
 
 //Takes specified ageGroup (String) and all categories (Array)
-function generatePerson(ageGroup, categories) {
-  let person = new Array(categories.length - 1);
+function generateEntity(ageGroup, categories) {
+  let entity = new Array(categories.length - 1);
   for (let i = 0; i < categories.length; i++) {
-    person[i] = generateAttribute(ageGroup, categories[i]);
+    entity[i] = generateAttribute(ageGroup, categories[i]);
   }
-  return person;
+  return entity;
 }
 
 function generateAttribute(key, arr) {
@@ -18,4 +18,4 @@ function generateAttribute(key, arr) {
   return attribute;
 }
 
-module.exports = { generatePerson, generateAttribute };
+module.exports = { generateEntity, generateAttribute };

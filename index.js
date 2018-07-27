@@ -5,10 +5,10 @@
 //categories
 
 //import functions
-const generatePerson = require("./functions/index.js").generatePerson;
+const generateEntity = require("./functions/index.js").generateEntity;
 const generateAttribute = require("./functions/index.js").generateAttribute;
 
-//Data
+//Data for generating a person
 const ageGroups = ["Child", "Youth", "Adult", "Senior"];
 
 //[0] in the following categories lets you set
@@ -47,6 +47,6 @@ const randomIndex = Math.floor(Math.random() * ageGroups.length);
 
 const ageGroup = ageGroups[randomIndex];
 
-console.log(ageGroup, generatePerson(ageGroup, categories));
+console.log(ageGroup, generateEntity(ageGroup, categories));
 //Example output
 //Youth [ 'Chinese', 'Muslim', 'Street dweller' ]
