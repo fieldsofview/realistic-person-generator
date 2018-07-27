@@ -1,3 +1,5 @@
+"use strict";
+
 //This is a realistic person generator
 //This program creates persons and allows you to create links between
 //categories
@@ -9,6 +11,9 @@ const generateAttribute = require("./functions/index.js").generateAttribute;
 //Data
 const ageGroups = ["Child", "Youth", "Adult", "Senior"];
 
+//[0] in the following categories lets you set
+//certain attributes as appliable to only selected ageGroup(s)
+//* means appliable to all ageGroups
 const races = [
   ["*", "Indian"],
   ["*", "Chinese"],
