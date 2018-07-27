@@ -35,6 +35,7 @@ const dailyOccupations = [
   ["Adult", "Cook"],
   ["Adult", "School teacher"],
   ["Youth Adult", "Rickshaw driver"],
+  ["Senior Youth Adult", "Artist"],
   ["Youth", "High school student"],
   ["Child", "Kindergarten"],
   ["*", "Street dweller"],
