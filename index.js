@@ -43,3 +43,5 @@ const randomIndex = Math.floor(Math.random() * ageGroups.length);
 const ageGroup = ageGroups[randomIndex];
 
 console.log(ageGroup, generatePerson(ageGroup, categories));
+//Example output
+//Youth [ 'Chinese', 'Muslim', 'Street dweller' ]
