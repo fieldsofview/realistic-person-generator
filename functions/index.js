@@ -1,3 +1,6 @@
+"use strict";
+
+//Takes specified ageGroup (String) and all categories (Array)
 function generatePerson(ageGroup, categories) {
   let person = new Array(categories.length - 1);
   for (let i = 0; i < categories.length; i++) {
